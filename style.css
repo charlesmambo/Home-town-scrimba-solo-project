@@ -1,0 +1,130 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Overpass', sans-serif;
+    text-align: center;
+}
+.header{
+    height: 500px;
+    background-image: url('images/cape-town1.jpg');
+    background-size: cover;
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+    align-items: center;
+}
+.header:hover{
+    background-image: url('images/cape-bg.jpg');  
+    background-size: cover;
+}
+#heading {
+    font-size: 2.6rem;
+    background-color:  #1D3557;
+    width: 350px;
+    padding: 12px 10px 8px 10px;
+    border-radius: 5px;
+}
+.header-text {
+    font-size: 1.2rem;
+    background-color: rgb(89, 161, 184);
+    width: 500px;
+    padding: 10px;
+    border-radius: 5px;
+    font-weight: 200;
+}
+.top-activities{
+    background-color: #F1FAEE;
+    padding: 20px 0;
+}
+.activities{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+.activity{ 
+    width: 300px;
+    padding: 0 20px;
+}
+.activities-heading{
+    color: rgb(32, 31, 31);
+    font-size: 2rem;
+
+}
+.activity h3{
+    color: rgb(32, 31, 31);
+}
+.activity p{
+    color: rgb(107, 104, 104);
+}
+.activity-img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+.activity-img:hover{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+footer{
+    padding-top: 80px;
+    background-image: linear-gradient(to right, #A8DADC , #A8DADC);
+}
+.card{
+    background-color: rgb(154, 193, 196);
+    width: 420px;
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+    justify-content: space-between;
+    margin: 0 auto;
+    border-radius: 8px;
+    color: #1D3557;
+    border-bottom: 6px solid #1D3557;
+    border-top: 6px solid #a8323c;
+}
+.card-text-container{
+    padding: 0 20px;
+    box-shadow: 5px 5px 10px rgb(173, 188, 189);
+}
+.card-img{
+     width: 220px;
+     height: 220px;
+     border-radius: 8px;
+     box-shadow: 5px 5px 20px rgb(139, 169, 172);
+}
+.icons{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    margin: 0;
+    margin-top: -20px;
+}
+.icon-list{
+    list-style: none;
+}
+.icon-list p{
+    color: #1D3557;
+    font-style: italic;
+}
+.icon-list li {
+    display: inline;
+    font-size: 25px;
+    text-align: center;
+    margin: 0 5px;
+}
+.items i{
+    color: #a8323c;
+    width: 25px;
+    height: 25px;
+    background-color: rgb(154, 193, 196);
+    padding: 12px 10px 12px 12px;
+    border-radius: 50%;
+}
+.items i:hover{
+    position: relative;
+    top: -50px;
+}
